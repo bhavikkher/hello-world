@@ -1,15 +1,25 @@
 {
-  "name": "nextjs",
+  "title": "Hello World",
+  "name": "hello-world",
   "version": "0.1.0",
   "private": true,
+  "author": "Bhavik Kher",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
-    "next": "10.0.0",
+    "@fortawesome/fontawesome-free": "5.15.1",
+    "bootstrap": "4.5.3",
+    "jquery": "3.5.1",
+    "jquery.easing": "^1.4.1",
+    "next": "10.0.3",
+    "popper.js": "^1.16.1",
     "react": "17.0.1",
     "react-dom": "17.0.1"
+  },
+  "devDependencies": {
+    "browser-sync": "2.26.13"
   }
 }
